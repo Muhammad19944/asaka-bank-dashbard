@@ -1,0 +1,53 @@
+@import "fonts.css";
+@import "typograph.css";
+@import "overrides.css";
+@import "helper.css";
+
+:root {
+	--font-light: 'Acrom-Light';
+	--font-regular: 'Acrom-Regular';
+	--font-semiBold: 'Acrom-Medium';
+	--font-bold: 'Acrom-Bold';
+	--theme-layout: #fff;
+	--theme-bg: #f8fafb;
+	--theme-color: #000000de;
+	--text-outline: #e8ecef;
+	--secondary-dark: #778ca2;
+	--secondary-dark-2: #98a9bc;
+	--primary-dark: #252631;
+	--border-color: 235, 235, 235;
+	--light: 248, 250, 251;
+	--primary: 37, 101, 229;
+	--success: 40, 199, 111;
+	--warning: 255, 159, 67;
+	--danger: 234, 84, 85;
+	--info: 0, 207, 232;
+	--shadow-1: 0px 23px 44px rgba(3, 8, 17, 0.14);
+	--shadow-2: 0px 33px 62px rgba(3, 8, 17, 0.24);
+	--shadow-3: 0px 44px 65px rgba(3, 8, 17, 0.19);
+	--shadow-4: 0px 50px 77px rgba(3, 8, 17, 0.22);
+	--shadow-sm: 0 .1rem 1rem .25rem rgba(0,0,0,.05);
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #D70C17;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #ebebeb;
+	border-radius: 5px;
+}
+
+::selection {
+	background: #f2f4f8;
+}
+
+img {
+	max-width: 100%;
+}

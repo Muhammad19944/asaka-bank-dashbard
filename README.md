@@ -1,4 +1,4 @@
-# new-asakabank
+# new-asakabank-dashboard
 
 ## Project setup
 ```

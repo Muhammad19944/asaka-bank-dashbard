@@ -1,0 +1,182 @@
+.p-absolute {
+    position: absolute;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.transition-all {
+    transition: all 300ms;
+}
+
+.w-100,
+.img-cover,
+.img-contain {
+    width: 100%;
+}
+
+.img-right {
+    object-position: right;
+}
+
+.img-left {
+    object-position: left;
+}
+
+.h-100,
+.img-cover,
+.img-contain {
+    height: 100%;
+}
+
+.m-h-100 {
+    min-height: 100%;
+}
+
+.img-cover {
+    object-fit: cover;
+}
+
+.img-contain {
+    object-fit: contain;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.fill-white {
+    fill: #fff;
+}
+
+.fill-primary {
+    fill: rgba(var(--main-primary), 1);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.outline-transparent {
+    outline: transparent;
+}
+
+.border-all {
+    border: 1px solid rgba(var(--border-color), 1);
+}
+
+.border-top {
+    border-top: 1px solid rgba(var(--border-color), 1);
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(var(--border-color), 1);
+}
+
+.border-right {
+    border-right: 1px solid rgba(var(--border-color), 1);
+}
+
+.border-left {
+    border-left: 1px solid rgba(var(--border-color), 1);
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.primary-bg {
+    background: rgba(var(--main-primary), 1);
+    color: #fff;
+}
+
+.text-secondary-dark {
+    color: var(--secondary-dark) !important;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.pull-left:hover {
+    padding-left: 12px;
+}
+
+.line-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.text-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.text-clamp.clamp-1 {
+    -webkit-line-clamp: 1;
+}
+
+.grid-gap-1 {
+    grid-gap: 1rem;
+}
+
+.ql-indent-1 {
+    padding-left: 1.5em;
+}
+
+.no-spacing {
+    letter-spacing: 0 !important;
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.shadow-1 {
+    box-shadow: var(--shadow-1);
+}
+
+.shadow-2 {
+    box-shadow: var(--shadow-2);
+}
+
+.shadow-3 {
+    box-shadow: var(--shadow-3);
+}
+
+.shadow-4 {
+    box-shadow: var(--shadow-4);
+}
+
+.shadow-sm {
+    box-shadow: var(--shadow-sm);
+}
